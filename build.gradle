@@ -21,9 +21,16 @@ dependencies {
     //testImplementation 'org.junit.jupiter:junit-jupiter'
     //testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    // testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+
+
+    testImplementation 'org.testng:testng:7.1.0'
+
+
 }
 
 test {
-    useJUnitPlatform()
+    //useJUnitPlatform()
+
+    useTestNG()
 }
